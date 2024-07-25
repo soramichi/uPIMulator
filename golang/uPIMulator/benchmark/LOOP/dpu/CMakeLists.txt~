@@ -1,4 +1,0 @@
-set(CMAKE_C_COMPILER dpu-upmem-dpurte-clang)
-set(CMAKE_C_FLAGS "-S -DDISABLE_MIGRATION")
-
-add_executable(LOOP_device task.c)
